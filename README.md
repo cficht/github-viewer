@@ -2,11 +2,11 @@
 ## Presentation
 [X]UserInput
 [X]UserInfo
-[]Repos
-[]Repo
+[X]Repos
+[X]Repo
 
 ## Container
-[]All Repos
+[X]All Repos
 [X]UserEnter
 
 ------

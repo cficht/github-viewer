@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import UserInput from '../../components/User/UserInput/UserInput.jsx';
 import UserInfo from '../../components/User/UserInfo/UserInfo.jsx';
-import Repo from '../../components/Repo/Repo.jsx';
+import Repos from '../../components/Repos/Repos.jsx';
 import { fetchUser } from '../../services/github.js';
 
 export default class UserEnter extends Component {
@@ -27,11 +27,24 @@ export default class UserEnter extends Component {
 
   render() {
     let userSearched = '';
+    const repos = [
+      {
+        id: 233724660,
+        name: 'about-me',
+        html_url: 'https://github.com/cficht/about-me'
+      },
+      {
+        id: 250081461,
+        name: 'book-application',
+        html_url: 'https://github.com/cficht/book-application'
+      }
+    ];
+
     if(this.state.search) {
       userSearched = 
       <>
         <UserInfo {...this.state.user} /> 
-        <Repo name="about-me" html_url="https://github.com/cficht/about-me"/>
+        <Repos repos={repos} />
       </>;
     }
     
