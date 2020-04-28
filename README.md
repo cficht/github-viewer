@@ -1,25 +1,28 @@
 # Components
 ## Presentation
-#UserInput
-UserInfo
-Repos
-Repo
+[X]UserInput
+[]UserInfo
+[]Repos
+[]Repo
 
 ## Container
-All Repos
-#UserEnter
+[]All Repos
+[X]UserEnter
 
-Input Username
-Display User Info
-Display All Repos
+------
 
+# Actions
+[X]Input Username
+[]Display User Info
+[]Display All Repos
+
+------
 
 # GitHub Api
 user
 repos
 PRs (stretch)
 issues (stretch)
-
 
 ## get user
 https://api.github.com/users/:username
