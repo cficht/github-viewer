@@ -10,7 +10,7 @@ exports[`UserInput component renders UserInput 1`] = `
   />
   <input
     name="search"
-    onChange={[Function]}
+    onClick={[Function]}
     type="button"
     value="Search"
   />

@@ -3,11 +3,5 @@
 exports[`App component renders App 1`] = `
 <Fragment>
   <UserEnter />
-  <UserInfo
-    followers={2}
-    following={7}
-    html_url="https://github.com/cficht"
-    login="cficht"
-  />
 </Fragment>
 `;

@@ -19,10 +19,10 @@
 ------
 
 # GitHub Api
-user
-repos
-PRs (stretch)
-issues (stretch)
+[X]user
+[]repos
+[]PRs (stretch)
+[]issues (stretch)
 
 ## get user
 https://api.github.com/users/:username

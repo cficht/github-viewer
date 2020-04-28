@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const UserInput = ({ username, onUserChange, onUserSubmit }) => (
   <>
     <input type="text" name="username" value={username} onChange={onUserChange} />
-    <input type="button" name="search" value="Search" onChange={onUserSubmit} />
+    <input type="button" name="search" value="Search" onClick={onUserSubmit} />
   </>
 );
 
