@@ -1,30 +1,32 @@
-# Components
-## Presentation
+# GitHub Viewer
+
+## Components
+### Presentation
 [X]UserInput
 [X]UserInfo
 [X]Repos
 [X]Repo
 
-## Container
+### Container
 [X]All Repos
 [X]UserEnter
 
 ------
 
-# Actions
+## Actions
 [X]Input Username
 [X]Display User Info
-[]Display All Repos
+[X]Display All Repos
 
 ------
 
-# GitHub Api
+## GitHub Api
 [X]user
-[]repos
+[X]repos
 []PRs (stretch)
 []issues (stretch)
 
-## get user
+### get user
 https://api.github.com/users/:username
 https://api.github.com/users/cficht
 name
@@ -32,6 +34,8 @@ follower count
 following count
 link to github profile
 
-## get repos
+### get repos
 https://api.github.com/users/:username/repos
 https://api.github.com/users/cficht/repos
+name
+url
