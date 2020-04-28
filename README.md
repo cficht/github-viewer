@@ -1,7 +1,7 @@
 # Components
 ## Presentation
 [X]UserInput
-[]UserInfo
+[X]UserInfo
 []Repos
 []Repo
 
@@ -13,7 +13,7 @@
 
 # Actions
 [X]Input Username
-[]Display User Info
+[X]Display User Info
 []Display All Repos
 
 ------

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import UserInput from '../../components/User/UserInput/UserInput.jsx';
 import UserInfo from '../../components/User/UserInfo/UserInfo.jsx';
+import Repo from '../../components/Repo/Repo.jsx';
 import { fetchUser } from '../../services/github.js';
 
 export default class UserEnter extends Component {
@@ -27,7 +28,11 @@ export default class UserEnter extends Component {
   render() {
     let userSearched = '';
     if(this.state.search) {
-      userSearched = <UserInfo {...this.state.user} />;
+      userSearched = 
+      <>
+        <UserInfo {...this.state.user} /> 
+        <Repo name="about-me" html_url="https://github.com/cficht/about-me"/>
+      </>;
     }
     
     return (
