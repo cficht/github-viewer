@@ -6,11 +6,14 @@ export default class UserEnter extends Component {
     username: ''
   }
 
+  handleUserChange = ({ target }) => {
+    this.setState({ username: target.value });
+  };
+
   render() {
     return (
       <>
-        <UserInput username={this.username} onUserChange={() => {}}/>
-        
+        <UserInput username={this.state.username} onUserChange={this.handleUserChange}/>
       </>
     );
   }
