@@ -10,10 +10,14 @@ export default class UserEnter extends Component {
     this.setState({ username: target.value });
   };
 
+  handleUserSubmit = () => {
+    
+  }
+
   render() {
     return (
       <>
-        <UserInput username={this.state.username} onUserChange={this.handleUserChange}/>
+        <UserInput username={this.state.username} onUserChange={this.handleUserChange} onUserSubmit={this.handleUserSubmit}/>
       </>
     );
   }

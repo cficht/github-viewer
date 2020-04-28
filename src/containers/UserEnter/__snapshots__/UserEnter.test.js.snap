@@ -4,6 +4,7 @@ exports[`UserEnter component renders UserEnter 1`] = `
 <Fragment>
   <UserInput
     onUserChange={[Function]}
+    onUserSubmit={[Function]}
     username=""
   />
 </Fragment>

@@ -8,5 +8,11 @@ exports[`UserInput component renders UserInput 1`] = `
     type="text"
     value="cficht"
   />
+  <input
+    name="search"
+    onChange={[Function]}
+    type="button"
+    value="Search"
+  />
 </Fragment>
 `;

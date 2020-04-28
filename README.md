@@ -1,13 +1,13 @@
 # Components
 ## Presentation
-UserInput
-User
+#UserInput
+UserInfo
 Repos
 Repo
 
 ## Container
 All Repos
-UserEnter
+#UserEnter
 
 Input Username
 Display User Info
