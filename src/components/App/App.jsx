@@ -1,6 +1,6 @@
 import React from 'react';
+import UserEnter from '../../containers/UserEnter/UserEnter.jsx';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <UserEnter />;
 }
-  
