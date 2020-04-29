@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInput component renders UserInput 1`] = `
+<Fragment>
+  <input
+    name="username"
+    onChange={[Function]}
+    type="text"
+    value="cficht"
+  />
+  <input
+    name="search"
+    onClick={[Function]}
+    type="button"
+    value="Search"
+  />
+</Fragment>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo component renders UserInfo 1`] = `
+<Fragment>
+  <p>
+    cficht
+  </p>
+  <p>
+    2
+  </p>
+  <p>
+    7
+  </p>
+  <p>
+    https://github.com/cficht
+  </p>
+</Fragment>
+`;
