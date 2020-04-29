@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const UserInfo = ({ login, followers, following, html_url }) => (
   <>
-    <p>{login}</p>
-    <p>{followers}</p>
-    <p>{following}</p>
-    <p>{html_url}</p>
+    <h2>Username: {login}</h2>
+    <p>Followers: {followers}</p>
+    <p>Following: {following}</p>
+    <p>URL: {html_url}</p>
   </>
 );
 

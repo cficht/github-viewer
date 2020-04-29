@@ -6,6 +6,7 @@ const Repos = ({ repos }) => {
   const repoNodes = repos.map(repo => <Repo key={repo.id} {...repo} />);
   return (
     <ul>
+      <h2>Repos:</h2>
       {repoNodes}
     </ul>
   );
